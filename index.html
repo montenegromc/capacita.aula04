@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      <h1>Minha Página de Estudos</h1>
+      <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+          <h2>Bem-vindo ao nosso site</h2>
+          <p>Esta é a página inicial de testes.</p>
+          <ul>
+            <li>Item Um</li>
+            <li>Item Dois</li>
+            <li>Item Três</li>
+          </ul>
+        </section>
+
+        <section id="servicos">
+            <h2>O que oferecemos</h2>
+            <p>Veja nossos principais serviços listados abaixo</p>
+            <ol>
+               <li>Consultoria</li>
+               <li>Desenvolvimento Web</li>
+               <li>Suporte Técnico</li>
+            </ol>
+
+            <aside>
+               <h3>Notícias Importantes</h3>
+               <p>Fique atento às atualizações do site.</p>
+               <p>Em breve novas turmas abertas.</p>
+               <a href="#novidades">Clique aqui</a>
+            </aside>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos apaixonados por tecnologia e educação</p>
+
+            <form action="/enviar" method=post>
+                <label>Nome:</label>
+                <input type="text" name=nome>
+
+                <label>Email:</label>
+                <input type="text" name=email>
+
+                <label>Mensagem:</label>
+                <textarea name=mensagem rows=4 cols=30></textarea>
+                <input type=submit value=Enviar>
+            </form>
+        </section>
+
+        <aside>
+            <h3>Conteúdo Relacionado</h3>
+            <p>Veja também nossos cursos online gratuitos.</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados 2025</p>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+   
+</body>
+</html
